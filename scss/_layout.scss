@@ -1,0 +1,27 @@
+/* 2. L A Y O U T */
+
+.l-container {
+    max-width: 1024px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-container-withsidebar {
+    display: flex;
+}
+
+.l-header,
+.l-main,
+.l-sidebar,
+.l-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.l-main {
+    width: calc(70% - 2em); 
+}
+.l-sidebar {
+    width: 30%;
+}

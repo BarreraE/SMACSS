@@ -1,0 +1,12 @@
+ /* S T A T E */
+
+ .is-hidden {
+    display: none;
+}
+.is-error {
+    color: red;
+}
+.is-collapsed {
+    height: 0;
+    overflow: hidden;
+}
