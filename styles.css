@@ -70,6 +70,13 @@ img {
     .projects-list > li {
         width: calc( 33.3333% - 20px );
     }
+.footer {
+    border-radius: 30px;
+}
+.footer p {
+    margin-bottom: 0;
+    text-align: center;
+}
 
     /* S T A T E */
 
@@ -104,3 +111,17 @@ img {
     .theme-background-dark {
         background-color: #502265; 
     }
+
+    /* T Y P O G R A P H Y */
+     .f-xlarge {
+         font-size: 40px;
+     }
+     .f-large {
+         font-size: 30px;
+     }
+     .f-medium {
+         font-size: 18px;
+     }
+     .f-small {
+         font-size: 11px;
+     }
