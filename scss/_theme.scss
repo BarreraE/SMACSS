@@ -1,20 +1,20 @@
   /* T H E M E */
   .theme-color-default {
-    color: #645f64;
+    color: $color_default;
     
 }
 .theme-color-primary {
-    color: #b6cd30;
+    color: $color_primary;
 }
 .theme-color-secundary {
-    color: #9427cd; 
+    color: $color_secundary; 
 }
 .theme-color-light {
-    color: #ffff;
+    color: $color_secundary;
 }
 .theme-background-light {
-    background-color: #e5e4f9; 
+    background-color: $color_secundary; 
 }
 .theme-background-dark {
-    background-color: #502265; 
+    background-color: $bg_color_dark; 
 }

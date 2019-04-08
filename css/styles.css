@@ -1,3 +1,5 @@
+/* C O L O R S */
+/* Width layout */
 /* 1. B A S E */
 * {
   box-sizing: border-box;
@@ -26,7 +28,7 @@ img {
 
 /* 2. L A Y O U T */
 .l-container {
-  max-width: 1024px;
+  max-width: 960px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -60,10 +62,13 @@ img {
   list-style: none;
   padding: 0;
 }
-
 .menu > li:not(:last-child)::after {
   content: "/";
   margin: 0 5px;
+}
+.menu a:hover {
+  text-decoration: underline;
+  color: #4e88f3;
 }
 
 .projects-list {
@@ -107,23 +112,23 @@ img {
 }
 
 .theme-color-primary {
-  color: #b6cd30;
+  color: #145dbd;
 }
 
 .theme-color-secundary {
-  color: #9427cd;
+  color: #4e88f3;
 }
 
 .theme-color-light {
-  color: #ffff;
+  color: #4e88f3;
 }
 
 .theme-background-light {
-  background-color: #e5e4f9;
+  background-color: #4e88f3;
 }
 
 .theme-background-dark {
-  background-color: #502265;
+  background-color: #c5cfd6;
 }
 
 /* T Y P O G R A P H Y */

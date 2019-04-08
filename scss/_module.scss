@@ -5,12 +5,17 @@
     margin-bottom: 0;
     list-style: none;
     padding: 0;
-}
-    .menu > li:not(:last-child)::after {
+
+    > li:not(:last-child)::after {
         content:"/";
         margin: 0 5px;
-    }
+    } 
+    a:hover{
+        text-decoration: underline;
+        color: $color_secundary;
 
+    }
+} 
 .projects-list {
     display: flex;
     justify-content: space-between;
@@ -28,3 +33,4 @@
     margin-bottom: 0;
     text-align: center;
 }
+  
